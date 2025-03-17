@@ -346,6 +346,7 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   color: white;
   font-size: 20px;
   background-color: #1f1f1f;
@@ -357,8 +358,8 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  height: 200px;
-  position: relative;
+  /* height: 200px; */
+  /* position: relative; */
 }
 
 .footer__column {
@@ -371,23 +372,23 @@
 .footer__column_content_hours {
   max-width: 350px;
   margin-left: auto;
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  right: 260px;
+  right: 260px; */
 }
 
 .footer__column_content_social {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  right: 0;
+  right: 0; */
   margin-left: 80px;
   max-width: 180px;
 }
 
 .footer__logo {
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
   margin: 0 0 auto 0;
   width: 58px;
   height: 80px;
@@ -425,9 +426,9 @@
 }
 
 .footer__copyright {
-  position: absolute;
+  /* position: absolute;
   bottom: 0px;
-  left: 0px;
+  left: 0px; */
   color: white;
   font-size: 15px;
   margin: 100px 0 0;
